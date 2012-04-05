@@ -18,10 +18,10 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 <body class="impress-not-supported">
-<div class="fallback-message">
+<section class="fallback-message">
     <p>Glups! Tu navegador <b>no soporta las funcionalidades necesarias para cargar</b>impress.js, te presentamos una versión reducida.</p>
     <p>No seas viejuno y bájate <b>Chrome</b>, <b>Safari</b> o <b>Firefox</b> browser.</p>
-</div>
+</section>
 
 <!--
     
@@ -33,7 +33,7 @@
     If you are willing to change this value make sure you understand how CSS perspective works:
     https://developer.mozilla.org/en/CSS/perspective
 -->
-<div id="impress">
+<section id="impress">
 
     <!--
         
@@ -79,7 +79,7 @@
 	           src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"/></a>
 	   </footer>
 	</header>
-	<article class="step slide" id="about-me" data-x="950" data-y="0">
+	<article class="step slide" id="about-me" data-x="1200" data-y="0">
 	  <img src="img/postit_hello.gif" class="hello">
 	  <h1 class="title">Israel Alcázar</h1>
 	  <ul class="bullets info">
@@ -98,18 +98,212 @@
 	  
 	
     </article>
-    <div class="step slide" data-x="0" data-y="0" data-z="-2000">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
-    </div>
-	<div class="step slide" data-x="0" data-y="2000" data-rotate="360">
-        <q>Girando que es gerundio</q>
-    </div>
-	<div class="step" data-x="1000" data-y="3000" data-rotate="0" data-scale="8">
-        <q>Transición sin giro</q>
-    </div>
+	<article id="indice" class="step slide" data-x="2400" data-y="0">
+		<h1>Índice</h1>
+       	<ul class="bullets">
+		    <li class="even"><a href="#chapter1">Dejemos las cosas claras</a></li>
+			<li class="even"><a href="#chapter2">¿Por dónde empiezo?</a></li>
+			<li class="even"><a href="#chapter3">Las personas</a></li>
+			<li class="even"><a href="#chapter4">Código e Infraestructura</a></li>
+		</ul>
+		<footer>Pincha en los elementos para ir directamente a las secciones</footer>
+    </article>
+	<article id="chapter1" class="step slide" data-x="1200" data-y="1200">
+       	<ul class="bullets">
+		    <li class="big even">¡Se busca agilista!</li>
+		</ul>
+		<footer><a href="#indice">Volver al Índice</a></footer>
+    </article>
+	<article class="step slide" data-x="1200" data-y="1200">
+       	<ul class="bullets">		
+			<li class="big even">¡Se busca agilista!</li>
+			<br/>
+			<li class="big even">¿Habéis visto alguno cerca?</li>
+		</ul>
+		<footer><a href="#indice">Volver al Índice</a></footer>
+    </article>
 
+    <article class="step slide" data-x="1200" data-y="2400">
+			
+			<h1>Tiene esta apariencia</h1>
+		    <figure class="img_inline">
+		      <img src="img/hippie.jpg" class="rounded">
+		    </figure>
+			<ul class="bullets">
+		    	<li class="big even">¡Paz y Agile hermano!</li>
+			</ul>
+    </article>
+
+
+	<article class="step slide" data-x="2400" data-y="2400" data-rotate="360">
+        <q>Aclaremos algunas cosas...</q>
+		<figure class="img_inline">
+	      <img src="img/monkey.jpg" class="rounded">
+	    </figure>
+    </article>
+
+	<article class="step slide" data-x="3600" data-y="2400" data-rotate="0">
+        <ul class="bullets">		
+			<li class="even">Hacer software es complejo...</li>
+			<figure class="img_inline">
+		      <img src="img/pending.jpg" class="rounded">
+		    </figure>
+			<li class="odd">...porque resuelve problemas que cambian</li>
+		</ul>
+    </article>
+	
+	<article class="step slide" data-x="4800" data-y="2400">
+        <h1>Complejidad Absoluta</h1>
+		<ul>		
+			<figure class="img_inline">
+		      <img src="img/pending.jpg" class="rounded">
+		    </figure>
+			<h2 class="even normal">...podemos minimizar la complejidad accidental</h2>
+		</ul>
+    </article>
+	<article id="enfoque-tradicional" class="step slide" data-x="6000" data-y="2400">
+        <h1>Enfoque Tradicional</h1>
+		<ul class="bullets">
+			<li class="even">Fases Fijas y bien definidas.</li>		
+			<li class="even">Pensado para proyectos con <strong>pocos cambios</strong> y poca <strong>incertidumbre.</strong></li>
+			<li class="even">Busca la <strong>predicción</strong> no la adaptación.</li>
+		</ul>
+    </article>
+	<article  class="step" data-x="7000" data-y="2400" data-rotate="-90" data-scale="3" data-z="-2000">
+        <q>¡Houston, tenemos un problema!</q>
+    </article>
+	
+	<article class="step slide" data-x="8000" data-y="2400" data-rotate="-90">
+        <ul class="bullets">		
+			<li class="even">Hacer software es complejo...</li>
+			<figure class="img_inline">
+		      <img src="img/pending.jpg" class="rounded">
+		    </figure>
+			<li class="odd">...porque resuelve problemas que cambian</li>
+		</ul>
+    </article>
+
+	<article  id="enfoque-ligero" class="step slide" data-x="6000" data-y="3400">
+        <h1>Enfoque Ligero / Ágil <strong class="red">*</strong></h1>
+		<ul class="bullets">
+			<li class="even">Proyectos <strong>complejos</strong> y con <strong>incertidumbre</strong>.</li>		
+			<li class="even">El <strong>cambio</strong> es la única constante.</strong></li>
+			<figure class="img_tiny img_centered">
+		      <img src="img/change-ahead.jpg" class="rounded">
+		    </figure>
+		</ul>
+		<footer class="red">* No se puede aplicar a cualquier proyecto</footer>
+    </article>
+	<article  class="step slide" data-x="7200" data-y="3400">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<ul class="bullets">
+			<li class="even">Entrega temprana.</li>		
+			<li class="even">Recibe feedback.</li>
+			<li class="even">Falla Pronto y <strong>reduce tu incertidumbre</strong></li>
+			<li class="even">Inspecciona el resultado y adáptate.</li>
+		</ul>
+    </article>
+	<article  class="step slide" data-x="8400" data-y="3400">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<h2>Ciclo de Deming</h2>
+			<figure class="img_inline img_centered">
+		      <img src="img/ciclo-deming.png" class="rounded">
+		    </figure>
+		<footer>Aviso a navegantes...esto es de los años 50</footer>
+    </article>
+	
+	<article  class="step slide" data-x="8400" data-y="3400" data-z="-2000">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<p class="big"><strong>Supone:</strong></p>
+			<ul class="bullets">
+				<li class="big even">Software Modular vs <strong>Software Orgánico</strong></li>
+				<figure class="img_tiny img_centered">
+			      <img src="img/pending.jpg" class="rounded">
+			    </figure>
+			</ul>
+    </article>
+	<article  class="step slide" data-x="8400" data-y="3400" data-z="-4000">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<p class="big"><strong>Supone:</strong></p>
+			<ul class="bullets">
+				<li class="big even">Ser Rápido vs <strong>Ser Constante</strong></li>
+				<figure class="img_tiny img_centered">
+			      <img src="img/pending.jpg" class="rounded">
+			    </figure>
+			</ul>
+    </article>
+	<article  class="step slide" data-x="8400" data-y="3400" data-z="-6000">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<p class="big"><strong>Supone:</strong></p>
+			<ul class="bullets">
+				<li class="big even">Un cambio de mentalidad...</li>
+				
+				<li class="big odd">...conceptos fáciles de entender pero difíciles de hacer</li>
+			</ul>
+    </article>
+	<article  class="step slide" data-x="9600" data-y="3400" data-z="-6000">
+        <h1>Enfoque Ligero / Ágil</h1>
+			<figure class="img_inline">
+			    <img src="img/play.jpg" class="rounded">
+			</figure>
+			<ul class="bullets"><li class="big">Dinámica del <strong>VEN</strong></li></ul>
+    </article>
+	<article  class="step slide" data-x="10800" data-y="3400" data-z="-6000" data-rotate="90">
+        <h1>Enfoque Ligero / Ágil</h1>
+		<h2 class="big">Conclusiones:</h2>
+			<ul class="bullets">
+				<li class="big">Difícil</li>
+				<li class="big">Resistencia al cambio</li>
+				<li class="big">No se puede hacer siempre</li>
+			</ul>
+    </article>
+	<article  class="step slide" data-x="10800" data-y="2200" data-z="-6000" data-rotate="90">
+        <h1>Enfoque Ligero / Ágil</h1>
+			<ul class="bullets">
+				<li class="big even">Además hay que tener en cuenta el factor cultural...</li>
+					<figure class="img_tiny img_centered">
+				      <img src="img/spain.jpg" class="rounded">
+				    </figure>
+				<li class="big odd">...Spain is Different?</li>
+			</ul>
+			<footer><a href="#indice">Volver al Índice</a></footer>
+    </article>
+	<article id="chapter2" class="step slide" data-x="2400" data-y="3600">
+
+			<h1>¿Por dónde empiezo?</h1>
+			<ul>
+		    <figure class="img_inline">
+		      <img src="img/nudo.jpg" class="rounded">
+		    </figure>
+			<h2>En caso de duda consulte con su farmacéutico</h2>
+			</ul>
+			<footer><a href="#indice">Volver al Índice</a></footer>
+    </article>
+	<article class="step slide" data-x="3600" data-y="3600">
+			<h1>Lo primero</h1>
+			<ul class = "bullets">
+				<li class="even">Tener claros los <strong>principios</strong>.</li>
+				<li class="even"><strong>Mostrar los problemas</strong> antes de intentar solucionarlos.</li>
+				<li class="even"><strong>Tomar métricas</strong> objetivas para poder comparar en un futuro.</li>
+			</ul>
+    </article>
+	<article class="step slide" data-x="4800" data-y="3600">
+			<h1>Lo segundo</h1>
+			<h2 class="big"> No uses nombres raros</h2>
+			Daily Meeting, Sprint, Retrospectiva, Product Owner, Scrum Master, TDD, BDD...
+			
+			WTF!
+			
+    </article>
+
+	<article  class="step" data-x="2000" data-y="-1200" data-scale="5"> 
+		<q>¿Preguntas?</q>
+	</article>
+	<article  class="step" data-x="2000" data-y="-1600" data-scale="5"  data-rotate-y="100" data-rotate-x="100"> 
+		<q>¡Gracias por venir!</q>
+	</article>
    
-</div>
+</section>
 
 <div class="hint">
     <p>Utiliza la barra o las fechas para navegar</p>

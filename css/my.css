@@ -1,3 +1,29 @@
+a:link, a:visited { 
+	text-decoration: underline;
+	text-shadow: none;
+	background: #FA8072;
+}
+a:hover{
+	cursor: pointer;
+	background: rgba(255, 255, 255, 1);
+	text-shadow: none;
+	text-decoration: none;
+}
+h1 {
+  font-size: 200%;
+  line-height: 1.1em;
+  color: black;
+  margin: 0 1em 1em 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 90%;
+  line-height: 1em;
+  color: black;
+  text-align: center;
+}
 .title {
   position:absolute;
   display:block;
@@ -10,21 +36,20 @@
 }
 .info{
 	position:absolute;
-	display:block;
 	float:left;
 	font-size:75%;
 	left:0%;
-	top:75%;
+	top:70%;
 }
 .agilespain{
 	position:absolute;
-	top:80%;
+	top:77%;
 	left:70%;
 }
 .madriagil{
 	position:absolute;
-	top:45%;
-	left:80%;
+	top:75%;
+	left:45%;
 }
 .atsistemas{
 	position:absolute;
@@ -41,14 +66,80 @@
 	
 }
 .madridjs{
-	position:relative;
-	top:75%;
-	left:10%;
+	position:absolute;
+	top:45%;
+	left:75%;
 	
 }
 .hello{
 	float:left;
 }
+.rounded{
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-o-border-radius: 10px; 
+	-ms-border-radius: 10px; 
+	border-radius: 10px; 
+}
+.step .img_inline {
+  position:relative;
+  top:5%;
+  margin: auto 20% auto 20%;
+  max-width: 60%;
+}
+
+.step figure.img_inline {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.step figure.img_inline img {
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+.step figure.img_inline figcaption {
+  margin: 0 0 1em 0;
+  padding: 0;
+  width: 100%;
+  font-size: 0.5em;
+  color: #2f3f3f;
+  line-height: 1em;
+  text-align: center;
+}
+.step figure.img_centered {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+.step .img_centered img{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 35%;
+}
+
+.step figure.img_tiny {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+.step figure.img_tiny img{
+	  padding: 0;
+	  max-width: 30%;
+}
+
+.step figure.img_big {
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+.step figure.img_big img{
+	  padding: 0;
+	  max-width: 120%;
+}
+
 .step hgroup h1 {
   font-size: 200%;
   line-height: 1.1em;
@@ -129,6 +220,7 @@
 }
 
 .step .bullets li {
+  padding-bottom:.5em;
   margin-left: 1em;
   font-size: 1.25em;
   line-height: 1.5em;
@@ -172,4 +264,22 @@
   margin-bottom: 1em;
   font-size: 1.5em;
   letter-spacing: 0.05em;
+}
+
+.normal, .step .bullets li.normal {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+}
+.red { color:red;}
+
+footer {
+	text-align:center;
+	font-size:85%;
+	position: absolute;
+	margin: 0 2% 2% 0;
+	padding: 0;
+	bottom: 0;
+	right: 0;
+	
 }
