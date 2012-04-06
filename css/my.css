@@ -266,6 +266,12 @@ h2 {
   letter-spacing: 0.05em;
 }
 
+.tiny, .bullets li.tiny {
+  margin-bottom: 1em;
+  font-size: 70%;
+  letter-spacing: 0.05em;
+}
+
 .normal, .step .bullets li.normal {
   margin-bottom: 1em;
   font-size: 1.1em;
