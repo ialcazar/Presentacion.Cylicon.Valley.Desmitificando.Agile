@@ -18,6 +18,16 @@ h1 {
   text-align: center;
 }
 
+h1.portada{
+	font-size: 200%;
+	  line-height: 1.1em;
+	  color: black;
+	  margin: 4em 1em 1em 1em;
+	  font-weight: bold;
+	  text-align: center;
+	}
+}
+
 h2 {
   font-size: 90%;
   line-height: 1em;
